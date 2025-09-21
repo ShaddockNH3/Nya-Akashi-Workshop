@@ -43,14 +43,11 @@
 
 **目标：** 使模型能够访问并利用外部知识（如碧蓝航线游戏资料），回答其预训练数据中不包含的、特定领域的问题。
 
-* **核心框架 (二选一深入):**
+* **核心框架:**
 
-  * **LangChain (瑞士军刀):** [LangChain 官方文档 (Python)](https://python.langchain.com/docs/get_started/introduction)
+  * **LangChain :** [LangChain 官方文档 (Python)](https://python.langchain.com/docs/get_started/introduction)
 
     * **定位分析：** 一个功能全面的LLM应用开发框架，覆盖数据连接、模型交互、链式调用、Agent构建等多个方面。RAG是其核心功能之一。推荐从`Quickstart`入手，理解其“链(Chain)”的核心概念。
-  * **LlamaIndex (专业选手):** [LlamaIndex 官方文档](https://docs.llamaindex.ai/en/stable/)
-
-    * **定位分析：** 专注于为RAG构建优化的数据索引和查询流程。对于需要处理大量、复杂文档的RAG应用，其数据处理和索引能力通常更胜一筹。
 
 * **RAG关键组件：**
 
