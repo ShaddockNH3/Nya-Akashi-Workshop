@@ -40,7 +40,7 @@ peft_config = LoraConfig(
 )
 training_args = TrainingArguments(
     output_dir="/content/drive/MyDrive/Akashi_Project/akashi_1.8b_results",
-    evaluation_strategy="steps", 
+    do_eval=True,
     eval_steps=10,
     num_train_epochs=3,
     per_device_train_batch_size=4,
@@ -70,7 +70,7 @@ print("开始训练")
 trainer.train()
 
 # 阶段五: 保存微调后的模型
-output_dir = "/content/drive/MyDrive/Akashi_Project/akashi-ai-1.8b-v2"
+output_dir = "/content/drive/MyDrive/Akashi_Project/akashi-ai-1.8b-v3"
 print(f"\n训练完成！正在保存LoRA适配器到: {output_dir}")
 trainer.save_model(output_dir)
 
