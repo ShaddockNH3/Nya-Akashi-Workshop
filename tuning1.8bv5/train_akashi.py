@@ -42,12 +42,12 @@ training_args = TrainingArguments(
     output_dir="/content/drive/MyDrive/Akashi_Project/akashi_1.8b_results",
     do_eval=True,
     eval_steps=10,
-    num_train_epochs=4,
+    num_train_epochs=2,
     per_device_train_batch_size=4,
     gradient_accumulation_steps=2,
     optim="paged_adamw_8bit",
     logging_steps=10,
-    learning_rate=2e-4,
+    learning_rate=1e-4,
     fp16=True,
 )
 
@@ -70,7 +70,7 @@ print("开始训练")
 trainer.train()
 
 # 阶段五: 保存微调后的模型
-output_dir = "/content/drive/MyDrive/Akashi_Project/akashi-ai-1.8b-v4"
+output_dir = "/content/drive/MyDrive/Akashi_Project/akashi-ai-1.8b-v5"
 print(f"\n训练完成！正在保存LoRA适配器到: {output_dir}")
 trainer.save_model(output_dir)
 
