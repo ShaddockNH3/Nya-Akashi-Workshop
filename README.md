@@ -2,10 +2,10 @@
 
 <img src="./README.assets/Akashi_3.png" alt="Akashi_3.png" style="zoom:50%;" />
 
-**项目状态:** `v0.1.2 - 核心人格微调尝试`
+**项目状态:** `v0.2.1 - 核心人格微调v5版本+Naive RAG`
 **基础模型:** `Qwen/Qwen1.5-1.8B-Chat`
-**核心技术:** `PEFT (QLoRA)`
-**当前成果:** 成功在Google Colab环境下，对1.8B模型进行参数高效微调，使其具备了“明石”的角色人格（Persona）。
+**核心技术:** `PEFT (QLoRA), RAG`
+**当前成果:** 成功在Google Colab环境下，对1.8B模型进行参数高效微调，使其具备了“明石”的角色人格（Persona）在此基础上爬取角色及剧情相关的文档，向量化后使用基本RAG检索。
 
 ---
 
