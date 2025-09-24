@@ -13,3 +13,15 @@
 [语义搜索](https://python.langchain.com/docs/tutorials/retrievers/)
 
 这部分大概就是RAG部分的R，构建一个向量词库。
+
+后续就是
+
+rag1
+
+rag2
+
+Summarize Text
+
+Build a Chatbot
+
+Build an Agent
