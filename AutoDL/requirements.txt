@@ -1,0 +1,18 @@
+# --- 核心框架与模型库 ---
+transformers
+bitsandbytes
+accelerate
+torch
+
+# --- LangChain 与 LangGraph 核心 ---
+langchain
+langchain-huggingface
+langchain-community
+langgraph
+
+# --- RAG 检索组件 ---
+sentence-transformers
+faiss-cpu
+
+# --- 前端界面 ---
+streamlit

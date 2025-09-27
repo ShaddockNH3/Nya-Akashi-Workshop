@@ -1,0 +1,123 @@
+{
+  "alliances": {
+    "碧蓝航线": "由白鹰、皇家等多个阵营组成的主要军事组织，旨在对抗塞壬和赤色中轴，守护人类的海洋和平。",
+    "赤色中轴": "由铁血、重樱、撒丁帝国等阵营组成的军事同盟，与碧蓝航线对立，并利用塞壬技术来强化自身力量。",
+    "余烬": "由强大的META舰船组成的神秘组织，目的和行动均不明朗，是独立于碧蓝航线和赤色中轴之外的第三方势力。",
+    "独立/其他": "不直接隶属于两大军事同盟的阵营或特殊组织。"
+  },
+  "main_factions": [
+    {
+      "name_cn": "白鹰",
+      "name_en": "Eagle Union",
+      "abbr": "USS",
+      "alliance": "碧蓝航线",
+      "description": "拥有强大的工业实力与先进的科学技术，尤其以航空兵器见长。为了贯彻自身的正义与世界和平的理念而战。"
+    },
+    {
+      "name_cn": "皇家",
+      "name_en": "Royal Navy",
+      "abbr": "HMS",
+      "alliance": "碧蓝航线",
+      "description": "拥有世界上最丰富的造船经验，致力于军舰设计的最佳平衡性能。为捍卫皇家的荣耀与制海权而战，注重优雅与实力并存。"
+    },
+    {
+      "name_cn": "重樱",
+      "name_en": "Sakura Empire / Sakura Islands",
+      "abbr": "IRN",
+      "alliance": "赤色中轴",
+      "description": "位于东洋的岛国，掌握着神秘的力量，舰队实力在短时间内迅速壮大，足以与世界列强分庭抗礼。"
+    },
+    {
+      "name_cn": "铁血",
+      "name_en": "Iron Blood",
+      "abbr": "KMS / SMS",
+      "alliance": "赤色中轴",
+      "description": "拥有众多优秀科学家，通过研究塞壬获得了大量新技术，在人工智能和生物工程领域遥遥领先。"
+    },
+    {
+      "name_cn": "东煌",
+      "name_en": "Dragon Empery",
+      "abbr": "ROC / PRAN",
+      "alliance": "碧蓝航线",
+      "description": "位于东方大陆「神州」的历史悠久的古国，拥有深厚的文化底蕴和独特的战斗技巧。"
+    },
+    {
+      "name_cn": "北方联合",
+      "name_en": "Northern Parliament",
+      "abbr": "SN",
+      "alliance": "碧蓝航线",
+      "description": "位于极寒之地的强大国家，倡导集体主义与无畏的勇气。舰队主力常年在极地与塞壬作战，较少参与联合行动。"
+    },
+    {
+      "name_cn": "自由鸢尾",
+      "name_en": "Iris the Liberty",
+      "abbr": "FFNF",
+      "alliance": "碧蓝航线",
+      "description": "从鸢尾教国分裂出的势力，反对与铁血的融合政策。为了重建自己的国家而奋战。"
+    },
+    {
+      "name_cn": "维希教廷",
+      "name_en": "Curia of Vichya",
+      "abbr": "MNF",
+      "alliance": "赤色中轴",
+      "description": "从鸢尾教国分裂出的另一股势力，选择与铁血合作，加入了赤色中轴。"
+    },
+    {
+      "name_cn": "撒丁帝国",
+      "name_en": "Sardinian Empire",
+      "abbr": "RN",
+      "alliance": "赤色中轴",
+      "description": "拥有悠久历史与绚烂艺术的古老国家，相比军事，更对自身的文化传承感到自豪。"
+    },
+    {
+      "name_cn": "鸢尾教国",
+      "name_en": "Iris Orthodoxy",
+      "abbr": "MNF",
+      "alliance": "独立/其他",
+      "description": "自由鸢尾与维希教廷分裂前的统一宗教国家，是她们共同的根源。"
+    },
+    {
+      "name_cn": "郁金王国",
+      "name_en": "Kingdom of Tulip",
+      "abbr": "HNLMS",
+      "alliance": "碧蓝航线",
+      "description": "在后续事件中登场的新兴海洋国家阵营。"
+    }
+  ],
+  "special_factions": [
+    {
+      "name_cn": "META",
+      "name_en": "META",
+      "abbr": "META / ASHES",
+      "alliance": "余烬",
+      "description": "由被称为'余烬'的强大个体组成的神秘势力。其成员拥有超越时代的技术和强大的力量，行动目的不明。"
+    },
+    {
+      "name_cn": "其他",
+      "name_en": "Universal",
+      "abbr": "UNIV",
+      "alliance": "独立/其他",
+      "description": "通用阵营，主要包括布里等用于突破强化的特殊舰船。"
+    },
+    {
+      "name_cn": "飓风",
+      "name_en": "Tempesta",
+      "abbr": "MOT",
+      "alliance": "独立/其他",
+      "description": "在特殊活动中登场的，由风帆舰船组成的神秘海盗或冒险者势力。"
+    }
+  ],
+  "collaboration_factions": [
+    { "name": "海王星", "from": "超次元游戏：海王星" },
+    { "name": "哔哩哔哩", "from": "Bilibili" },
+    { "name": "传颂之物", "from": "传颂之物" },
+    { "name": "KizunaAI", "from": "KizunaAI" },
+    { "name": "维纳斯假期", "from": "死或生：沙滩排球维纳斯假期" },
+    { "name": "偶像大师", "from": "THE IDOLM@STER" },
+    { "name": "SSSS", "from": "SSSS.GRIDMAN / SSSS.DYNAZENON" },
+    { "name": "Atelier Ryza", "from": "莱莎的炼金工房2&3" },
+    { "name": "闪乱神乐NL", "from": "闪乱神乐：NEW LINK" },
+    { "name": "To LOVE-Ru", "from": "出包王女 Darknes" },
+    { "name": "BLACK★ROCK SHOOTER", "from": "BLACK★ROCK SHOOTER" }
+  ]
+}
